@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #242b2e;
+        }
+        .avatar-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+        img{
+            width: 200px;
+            border-radius: 50%;
+            margin-left: -50px;
+            position: relative;
+            border: 10px solid white;
+        }
+        .pic-1{
+            z-index: 10;
+        }
+        .pic-2{
+            z-index: 9;
+        }
+        .pic-3{
+            z-index: 8;
+        }
+        .pic-4{
+            z-index: 7;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <section class="avatar-container">
+        <img src="image.png" class="pic-1" alt="gojo">
+        <img src="image.png" class="pic-2" alt="gojo">
+        <img src="image.png" class="pic-3" alt="gojo">
+        <img src="image.png" class="pic-4" alt="gojo">
+    
+        </section>
+</body>
+</html>
